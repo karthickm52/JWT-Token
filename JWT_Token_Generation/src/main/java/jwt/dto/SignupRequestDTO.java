@@ -1,4 +1,4 @@
-package pack.dto;
+package jwt.dto;
 
 public class SignupRequestDTO {
 	

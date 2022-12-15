@@ -1,4 +1,4 @@
-package pack.common;
+package jwt.common;
 
 import org.springframework.http.HttpStatus;
 

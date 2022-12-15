@@ -1,4 +1,4 @@
-package pack.common;
+package jwt.common;
 
 public interface Constant {
 

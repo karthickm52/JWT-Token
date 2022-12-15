@@ -1,12 +1,11 @@
-package pack.model;
+package jwt.model;
 
-import java.util.Date;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jwt.common.Constant;
 
-import org.hibernate.annotations.Type;
-import org.springframework.format.datetime.standard.DateTimeContext;
-
-import jakarta.persistence.*;
-import pack.common.Constant;
 
 
 @Entity

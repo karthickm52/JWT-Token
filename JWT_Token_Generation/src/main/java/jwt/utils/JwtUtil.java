@@ -1,13 +1,16 @@
-package pack.utils;
+package jwt.utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
+
 import org.springframework.stereotype.Component;
+
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import pack.model.User;
+import jwt.model.User;
+
 
 @Component
 public class JwtUtil {

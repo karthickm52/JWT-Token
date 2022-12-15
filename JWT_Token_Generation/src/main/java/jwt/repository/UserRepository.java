@@ -1,9 +1,11 @@
-package pack.repository;
+package jwt.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import pack.model.User;
+import jwt.model.User;
+
+
 
 
 @Repository

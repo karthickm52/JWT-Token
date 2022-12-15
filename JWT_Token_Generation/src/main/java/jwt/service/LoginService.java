@@ -1,16 +1,18 @@
-package pack.service;
+package jwt.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import pack.common.APIResponse;
-import pack.dto.LoginRequestDTO;
-import pack.dto.SignupRequestDTO;
-import pack.model.User;
-import pack.repository.UserRepository;
-import pack.utils.JwtUtil;
+import jwt.common.APIResponse;
+import jwt.dto.LoginRequestDTO;
+import jwt.dto.SignupRequestDTO;
+import jwt.model.User;
+import jwt.repository.UserRepository;
+import jwt.utils.JwtUtil;
+
+
 
 
 

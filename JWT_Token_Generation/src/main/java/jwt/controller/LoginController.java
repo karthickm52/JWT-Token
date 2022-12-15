@@ -1,4 +1,4 @@
-package pack.controller;
+package jwt.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -6,10 +6,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import pack.common.APIResponse;
-import pack.dto.LoginRequestDTO;
-import pack.dto.SignupRequestDTO;
-import pack.service.LoginService;
+import jwt.common.APIResponse;
+import jwt.dto.LoginRequestDTO;
+import jwt.dto.SignupRequestDTO;
+import jwt.service.LoginService;
+
+
 
 
 @Controller
